@@ -1,0 +1,61 @@
+.stats{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('https://www.svce.ac.in/experience-svce/images/Campus%20walkthrough.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stats-bg{
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    display: block;
+    background-color: rgba(19,58,119,.8);
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.group{
+    width: 25%;
+    min-width: 200px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-right: 2px solid grey;
+}
+
+.group:last-child{
+    border: 0;
+}
+
+.stats h2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin: 0;
+}
+
+.group > *{
+    margin: 0;
+}
+
+.group > h3{
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.group h1{
+    font-size: 400%;
+}

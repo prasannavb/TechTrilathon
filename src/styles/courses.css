@@ -1,0 +1,64 @@
+.courses{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 1%;
+    background-color: aliceblue;
+    z-index:1   ;
+}
+
+.circle-div{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses h2{
+    font-size: 300%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.circle i{
+    font-size: 700%;
+    margin-bottom: 3%;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    display: block;
+    background-color: #13131f;
+    color: white;
+    border-radius: 50%;
+    border: 5px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 2;
+}
+.circle h1{
+    margin: 0;
+    text-align: center;
+    font-size: 175%;
+}
+.circle:first-child{
+    position: relative;
+    right: -3%;
+    border: 0;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.circle:last-child{
+    position: relative;
+    right: 3%;
+    border: 0;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
